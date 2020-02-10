@@ -183,21 +183,21 @@ footer a{
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 700px) {
+/*Fluid layouts respond to viewport sizes in-between your media query breakpoints, but fixed layouts do not.*/
 
-/* "first demonstration" 
-footer{
-    background: red;
-} */
+/*tablets*/
+@media screen and (max-width: 768px) {  /*this value was changed from 700px set in the previous lesson*/
+
 
 #featured li{
-    width: 46%;
+    width: 46%;  /*fluid layout using percentages rather than fixed pixel width*/
 }
 
-@media screen and (max-width: 400px) {
+/*mobiles*/
+@media screen and (max-width: 480px) {  /*this value was changed from 400px set in the previous lesson*/
 
 #featured li{
-    width: 92%;
+    width: 92%;  /*fluid layout using percentages rather than fixed pixel width*/
 }
 
 }
