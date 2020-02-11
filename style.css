@@ -229,9 +229,35 @@ footer a {
 
 /*mobiles*/
 @media screen and (max-width: 480px) {
-  /*this value was changed from 400px set in the previous lesson*/
+  /*value changed from 400px in previous lesson to 480px*/
 
   #featured li {
-    width: 92%; /*fluid layout using percentages rather than fixed pixel width*/
+    /*featured li style added for breakpoint at 480px
+    */
+    width: 90%;
+    margin: 20px 5%;
+  }
+
+  footer ul {
+    /*footer ul style added for breakpoint at 480px
+    */
+    width: 98%;
+    text-align: center;
+  }
+
+  #home-menu li {
+    /*home-menu li style added for breakpoint at 480px
+    */
+    float: none;
+    width: 96%;
+    margin: 30px 2% !important;
+  }
+
+  #main-banner img {
+    /*main-banner img style added for breakpoint at 480px
+    */
+    position: relative;
+    width: 180%;
+    left: -40%;
   }
 }
