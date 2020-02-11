@@ -231,6 +231,57 @@ footer a {
 @media screen and (max-width: 480px) {
   /*value changed from 400px in previous lesson to 480px*/
 
+  .burger-nav {
+    /*burger-nav style added for breakpoint at 480px
+    */
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(images/burger.png) no-repeat 98% center;
+    background-color: #404040;
+    cursor: pointer;
+  }
+
+  header .wrapper {
+    /*header .wrapper style added for breakpoint at 480px
+    */
+    width: 100%;
+    padding: 0;
+  }
+
+  header nav ul {
+    /*header nav ul style added for breakpoint at 480px
+    */
+    overflow: hidden;
+    background: #505050;
+    height: 0;
+  }
+
+  header nav ul.open {
+    /*header nav ul.open style added for breakpoint at 480px
+    */
+    height: auto;
+  }
+
+  header nav ul li {
+    /*header nav ul li style added for breakpoint at 480px
+    */
+    float: none;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  header nav ul li a {
+    /*header nav ul li a style added for breakpoint at 480px
+    */
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #404040;
+    display: block;
+    margin: 0;
+  }
+
   #featured li {
     /*featured li style added for breakpoint at 480px
     */
