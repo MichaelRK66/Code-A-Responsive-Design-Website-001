@@ -304,11 +304,13 @@ footer a {
     margin: 30px 2% !important;
   }
 
+}	/*removed main-banner img style to allow polyfill/resize for breakpoint at 480px
+	
   #main-banner img {
     /*main-banner img style added for breakpoint at 480px
-    */
     position: relative;
     width: 180%;
     left: -40%;
   }
-}
+	removed main-banner img style to allow polyfill/resize for breakpoint at 480px*/
+
